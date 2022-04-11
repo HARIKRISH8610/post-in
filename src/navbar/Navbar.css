@@ -1,0 +1,33 @@
+.navbar-brand img {
+  width: 40px;
+}
+.navbar-brand {
+  margin: 0;
+  width: fit-content;
+}
+.navbar {
+  width: 100% !important;
+  height: 60px;
+  /* display: inline-flex;
+  align-items: center; */
+  padding: 0;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  height: 100%;
+}
+.navbars {
+  width: max-content;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px !important;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: black;
+}

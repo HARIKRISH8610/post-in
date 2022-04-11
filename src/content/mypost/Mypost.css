@@ -1,0 +1,71 @@
+.preloader {
+  position: absolute;
+  width: 100%;
+  height: 92.2vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mypost-div {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mypost-inner {
+  margin: 20px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+  display: block;
+}
+.your-posts {
+  border: 1px rgba(128, 128, 128, 0.5) solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+.posts {
+  width: 100%;
+  height: 410px;
+  overflow-y: scroll;
+}
+.posts::-webkit-scrollbar {
+  display: none;
+}
+.your-posts h6 img {
+  width: 30px;
+  margin-right: 10px;
+}
+.post-time {
+  color: gray;
+  font-size: 10px;
+  float: right;
+}
+.msg-gif img {
+  width: 200px;
+}
+.actions button {
+  width: 100px !important;
+}
+.no-post {
+  width: 100%;
+  height: 500px;
+}
+
+.no-post h6 {
+  text-align: center;
+  margin-top: 20vh;
+}
+.no-post button {
+  border-radius: 20px;
+}
+.no-post div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
